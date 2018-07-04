@@ -14,6 +14,7 @@
 		1D8867DD20E0B88B009E6A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8867DB20E0B88B009E6A29 /* LaunchScreen.storyboard */; };
 		1D8867E820E0B88B009E6A29 /* Animated_Star_RatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8867E720E0B88B009E6A29 /* Animated_Star_RatingTests.swift */; };
 		1D8867F320E0B88B009E6A29 /* Animated_Star_RatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8867F220E0B88B009E6A29 /* Animated_Star_RatingUITests.swift */; };
+		1D88680120E0B8A8009E6A29 /* AnimatedStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88680020E0B8A8009E6A29 /* AnimatedStar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1D8867EE20E0B88B009E6A29 /* Animated Star RatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Star RatingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8867F220E0B88B009E6A29 /* Animated_Star_RatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Star_RatingUITests.swift; sourceTree = "<group>"; };
 		1D8867F420E0B88B009E6A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D88680020E0B8A8009E6A29 /* AnimatedStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1D8867D220E0B889009E6A29 /* AppDelegate.swift */,
 				1D8867D420E0B889009E6A29 /* ViewController.swift */,
+				1D88680020E0B8A8009E6A29 /* AnimatedStar.swift */,
 				1D8867D620E0B889009E6A29 /* Main.storyboard */,
 				1D8867D920E0B88B009E6A29 /* Assets.xcassets */,
 				1D8867DB20E0B88B009E6A29 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1D8867D520E0B889009E6A29 /* ViewController.swift in Sources */,
 				1D8867D320E0B889009E6A29 /* AppDelegate.swift in Sources */,
+				1D88680120E0B8A8009E6A29 /* AnimatedStar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
