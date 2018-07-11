@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3BA45020F6398600A8B67D /* star_lobe_one.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1D3BA44B20F6398600A8B67D /* star_lobe_one.xml */; };
+		1D3BA45120F6398600A8B67D /* star_lobe_five.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1D3BA44C20F6398600A8B67D /* star_lobe_five.xml */; };
+		1D3BA45220F6398600A8B67D /* star_lobe_three.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1D3BA44D20F6398600A8B67D /* star_lobe_three.xml */; };
+		1D3BA45320F6398600A8B67D /* star_lobe_four.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1D3BA44E20F6398600A8B67D /* star_lobe_four.xml */; };
+		1D3BA45420F6398600A8B67D /* star_lobe_two.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1D3BA44F20F6398600A8B67D /* star_lobe_two.xml */; };
 		1D8867D320E0B889009E6A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8867D220E0B889009E6A29 /* AppDelegate.swift */; };
 		1D8867D520E0B889009E6A29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8867D420E0B889009E6A29 /* ViewController.swift */; };
 		1D8867D820E0B889009E6A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8867D620E0B889009E6A29 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D3BA44B20F6398600A8B67D /* star_lobe_one.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = star_lobe_one.xml; sourceTree = "<group>"; };
+		1D3BA44C20F6398600A8B67D /* star_lobe_five.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = star_lobe_five.xml; sourceTree = "<group>"; };
+		1D3BA44D20F6398600A8B67D /* star_lobe_three.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = star_lobe_three.xml; sourceTree = "<group>"; };
+		1D3BA44E20F6398600A8B67D /* star_lobe_four.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = star_lobe_four.xml; sourceTree = "<group>"; };
+		1D3BA44F20F6398600A8B67D /* star_lobe_two.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = star_lobe_two.xml; sourceTree = "<group>"; };
 		1D8867CF20E0B889009E6A29 /* Animated Star Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Star Rating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8867D220E0B889009E6A29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D8867D420E0B889009E6A29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D3BA44A20F6398600A8B67D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1D3BA44B20F6398600A8B67D /* star_lobe_one.xml */,
+				1D3BA44C20F6398600A8B67D /* star_lobe_five.xml */,
+				1D3BA44D20F6398600A8B67D /* star_lobe_three.xml */,
+				1D3BA44E20F6398600A8B67D /* star_lobe_four.xml */,
+				1D3BA44F20F6398600A8B67D /* star_lobe_two.xml */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		1D8867C620E0B889009E6A29 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +121,7 @@
 		1D8867D120E0B889009E6A29 /* Animated Star Rating */ = {
 			isa = PBXGroup;
 			children = (
+				1D3BA44A20F6398600A8B67D /* Library */,
 				1D8867D220E0B889009E6A29 /* AppDelegate.swift */,
 				1D8867D420E0B889009E6A29 /* ViewController.swift */,
 				1D88680020E0B8A8009E6A29 /* AnimatedStar.swift */,
@@ -233,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D8867DD20E0B88B009E6A29 /* LaunchScreen.storyboard in Resources */,
+				1D3BA45120F6398600A8B67D /* star_lobe_five.xml in Resources */,
+				1D3BA45320F6398600A8B67D /* star_lobe_four.xml in Resources */,
 				1D8867DA20E0B88B009E6A29 /* Assets.xcassets in Resources */,
 				1D8867D820E0B889009E6A29 /* Main.storyboard in Resources */,
+				1D3BA45420F6398600A8B67D /* star_lobe_two.xml in Resources */,
+				1D3BA45020F6398600A8B67D /* star_lobe_one.xml in Resources */,
+				1D3BA45220F6398600A8B67D /* star_lobe_three.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
