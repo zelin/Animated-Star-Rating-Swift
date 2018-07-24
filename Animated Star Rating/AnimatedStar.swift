@@ -37,7 +37,7 @@ class AnimatedStar : UIView
     func initalize()
     {
         let img: UIImageView;
-        img.tintColor = 0;
+        img.tintColor = UIColor.white;
     }
     
     /**
